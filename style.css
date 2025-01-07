@@ -1,0 +1,23 @@
+h1 {
+  background-color: yellow;
+  color: green;
+  display: inline;
+}
+
+h1:hover {
+  background-color: green;
+  color: yellow;
+}
+
+a:link,
+a:active {
+  color: green;
+  background-color: mediumaquamarine;
+  text-decoration: none;
+}
+
+a:hover,
+a:visited {
+  background-color: aqua;
+  color: white;
+}
