@@ -1,11 +1,16 @@
-function beautiFul() {
-  const makeupKit = ['Lipstick', 'Blush', 'Eyeliner', 'Nail-paint', 'Maskara'];
-  function ladiesParler() {
-    for (let beautyKit of makeupKit) {
-      console.log(`Give me the ${beautyKit.toUpperCase()}`);
+function function_name1() {
+  console.log("Inside function_name1");
 
+  function function_name2() {
+    console.log("Inside function_name2");
+
+    function function_name3() {
+      console.log("Inside function_name3");
     }
+    return function_name3; // Return function_name3
   }
-  ladiesParler();
+  return function_name2; // Return function_name2
+
+
 }
-beautiFul();
+function_name1();
