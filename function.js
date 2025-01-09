@@ -1,6 +1,11 @@
-for (const i = 0; i < 5; i++) {
-  const msg = 'Hello World!!!';
-  console.log(msg);
+function beautiFul() {
+  const makeupKit = ['Lipstick', 'Blush', 'Eyeliner', 'Nail-paint', 'Maskara'];
+  function ladiesParler() {
+    for (let beautyKit of makeupKit) {
+      console.log(`Give me the ${beautyKit.toUpperCase()}`);
 
+    }
+  }
+  ladiesParler();
 }
-console.log(msg);
+beautiFul();
