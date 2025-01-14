@@ -1,2 +1,3 @@
-const arr = [5, 10, 15, 20, 25];
-console.log(arr.length);
+let arr1 = [1, 2];
+let arr2 = [3, 4, 5];
+console.log(arr1.concat(arr2));
