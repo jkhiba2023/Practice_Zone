@@ -1,3 +1,12 @@
-let arr1 = [1, 2];
-let arr2 = [3, 4, 5];
-console.log(arr1.concat(arr2));
+let manKiBaat = {
+  firstName: "jabir",
+  lastName: "Khan",
+  age: 29,
+  fullName: () => {
+    return `${this.firstName} ${this.lastName}`
+  }
+}
+console.log(manKiBaat.fullName);
+
+console.log(this);
+
