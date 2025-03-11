@@ -10,6 +10,7 @@ console.log(result);
 function adding(c, d) {
   return c + d;
 }
+
 console.log(adding(20, 30));
 
 //3. JavaScript Program to Calculate the Area of a Triangle
@@ -41,4 +42,14 @@ function swapNum(n1, n2) {
   console.log(`Before swapping n1: ${n1} & n2: ${n2}`);
 }
 
-swapNum(8, 9)
+swapNum(88, 97)
+
+
+//5. JavaScript Program to Convert Kilometers to Miles
+
+function kmToM(x) {
+  const mile = 0.621371;
+  const kilometerToMile = x * mile
+  console.log(kilometerToMile);
+}
+kmToM(5.2);
