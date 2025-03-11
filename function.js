@@ -5,4 +5,9 @@ console.log("Hello World");
 let a = 10;
 let b = 5;
 let result = a + b;
-console.log(result); 
+console.log(result);
+
+function adding(c, d) {
+  return c + d;
+}
+console.log(adding(20, 30));
