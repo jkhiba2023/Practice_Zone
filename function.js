@@ -22,3 +22,23 @@ function areaOfTriangle(base, height) {
 console.log(areaOfTriangle(3.5, 4.2));
 
 //4. JavaScript Program to Swap Two Variables
+
+let num1 = 10;
+let num2 = 7;
+let temp = 0;
+console.log(`Before swapping num1 ${num1}, num2 ${num2}`);
+temp = num2;
+num2 = num1;
+num1 = temp;
+console.log(`After swapping num1 ${num1}, num2 ${num2}`)
+
+function swapNum(n1, n2) {
+  let temp = 0
+  console.log(`Before swapping n1: ${n1} & n2: ${n2}`);
+  temp = n2;
+  n2 = n1;
+  n1 = temp;
+  console.log(`Before swapping n1: ${n1} & n2: ${n2}`);
+}
+
+swapNum(8, 9)
