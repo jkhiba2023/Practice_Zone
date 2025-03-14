@@ -67,3 +67,13 @@ function celToFahr(y) {
 }
 
 console.log(celToFahr(42));
+
+
+//7. Javascript Program to Generate a Random Number
+
+function randomNum(x) {
+  const randNum = Math.floor(Math.random() * x)
+  return randNum
+}
+
+console.log(randomNum(45));
