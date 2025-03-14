@@ -57,3 +57,13 @@ function kmToM(x) {
 kmToM(5.2);
 
 /**************************************************Day 2************************************************************/
+
+//6. Javascript Program to Convert Celsius to Fahrenheit
+
+function celToFahr(y) {
+  const fahrenheit = 32;
+  let cels = (y * 9 / 5) + fahrenheit;
+  return cels;
+}
+
+console.log(celToFahr(42));
