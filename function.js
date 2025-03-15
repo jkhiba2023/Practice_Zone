@@ -77,3 +77,17 @@ function randomNum(x) {
 }
 
 console.log(randomNum(45));
+
+//8. Javascript Program to Check if a number is Positive, Negative, or Zero
+
+function checkNum(x) {
+  if (x > 0) {
+    console.log(`${x} is positive`);
+  } else if (x < 0) {
+    console.log(`${x} is negative`);
+  } else {
+    console.log(`${x} Zero`);
+  }
+}
+
+console.log(checkNum(10));
