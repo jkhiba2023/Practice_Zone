@@ -90,4 +90,18 @@ function checkNum(x) {
   }
 }
 
-console.log(checkNum(10));
+checkNum(10);
+checkNum(-9);
+checkNum(0);
+
+//9. Javascript Program to Check if a Number is Odd or Even
+
+function checkEvenOrOdd(x) {
+  if (x % 2 == 0) {
+    console.log(`${x} it is an even number`);
+  } else {
+    console.log(`${x} it is an odd number`);
+  }
+}
+checkEvenOrOdd(14);
+checkEvenOrOdd(17);
