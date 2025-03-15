@@ -94,7 +94,7 @@ checkNum(10);
 checkNum(-9);
 checkNum(0);
 
-//9. Javascript Program to Check if a Number is Odd or Even
+//9. Javascript Program to Check if a Number is Odd or Even.
 
 function checkEvenOrOdd(x) {
   if (x % 2 == 0) {
@@ -105,3 +105,13 @@ function checkEvenOrOdd(x) {
 }
 checkEvenOrOdd(14);
 checkEvenOrOdd(17);
+
+//10. JavaScript Program to Find the Largest Among Three Numbers.
+
+function getMaxNum(arr) {
+  return Math.max.apply(null, arr)
+}
+
+const arr = [2, 7, 8, 9];
+const maxo = Math.max(...arr);
+console.log(maxo)
