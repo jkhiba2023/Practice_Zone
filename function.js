@@ -112,6 +112,4 @@ function getMaxNum(arr) {
   return Math.max.apply(null, arr)
 }
 
-const arr = [2, 7, 8, 9];
-const maxo = Math.max(...arr);
-console.log(maxo)
+console.log(getMaxNum([10, 22, 15, 19]));
