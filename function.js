@@ -138,3 +138,40 @@ function isPrime(num) {
   return true
 }
 
+
+//13. JavaScript Program to Print All Prime Numbers in an Interval
+
+function isPrime(num) {
+  if (num <= 1) return false
+  for (let i = 2; i <= num; i++) {
+    if (num % i === 0) return false
+    break;
+  }
+  return true
+}
+
+function rangeOfPrime(n) {
+  let result = [];
+  console.log(`Prime number from ${n}`)
+  for (let i = 2; i <= n; i++) {
+    if (isPrime(i)) {
+      result.push(i);
+    }
+  }
+  return result.join(',')
+}
+
+console.log(rangeOfPrime(30));
+
+
+//14. JavaScript Program to Find the Factorial of a Number
+
+function fact(x) {
+  let res = 1;
+  for (let i = 1; i <= x; i++) {
+    res = res * i;
+  }
+  return res
+}
+
+console.log(fact(5));
