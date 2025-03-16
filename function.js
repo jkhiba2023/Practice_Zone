@@ -175,3 +175,14 @@ function fact(x) {
 }
 
 console.log(fact(5));
+
+//15. JavaScript Program to Display the Multiplication Table
+
+function MultiTable(num, limit) {
+  console.log(`Table of ${num}`);
+  for (let i = 1; i <= limit; i++) {
+    console.log(`${num}*${i}=${num * i}`)
+  }
+}
+
+MultiTable(10, 20);
