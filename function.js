@@ -113,3 +113,28 @@ function getMaxNum(arr) {
 }
 
 console.log(getMaxNum([10, 22, 15, 19]));
+
+//11. JavaScript Program to Check Prime Number.
+
+function isPrime(x) {
+  if (x <= 1) return false
+  for (let i = 2; i < x; i++) {
+    if (x % i === 0) return false
+    break;
+  }
+  return true;
+}
+
+console.log(isPrime(7));
+
+//12. JavaScript Program to Print All Prime Numbers in an Interval.
+
+function isPrime(num) {
+  if (num <= 1) return false
+  for (let i = 2; i <= num; i++) {
+    if (num % i === 0) return false
+    break;
+  }
+  return true
+}
+
