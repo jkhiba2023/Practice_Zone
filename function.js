@@ -114,6 +114,9 @@ function getMaxNum(arr) {
 
 console.log(getMaxNum([10, 22, 15, 19]));
 
+/**************************************************Day 3************************************************************/
+
+
 //11. JavaScript Program to Check Prime Number.
 
 function isPrime(x) {
