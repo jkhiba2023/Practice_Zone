@@ -189,3 +189,29 @@ function MultiTable(num, limit) {
 }
 
 MultiTable(10, 20);
+
+//16. JavaScript Program to Print the Fibonacci Sequence
+
+function fibonacciSeries(n) {
+  let fibo = [0, 1]
+  for (let i = 2; i < n; i++) {
+    fibo[i] = fibo[i - 1] + fibo[i - 2];
+  }
+  return fibo
+}
+console.log(fibonacciSeries(7))
+
+//17. JavaScript Program to Check Armstrong Number
+
+function isArmstrong(n) {
+  let sum = 0; str = n.toString(); leng = str.length;
+  for (let i = 0; i < str.length; i++) {
+    sum = sum + Math.pow(str[i], leng)
+  }
+  return sum === n
+}
+
+console.log(isArmstrong(153));
+
+//18. JavaScript Program to Find Armstrong Number in an Interval.
+
