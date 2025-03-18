@@ -215,3 +215,22 @@ console.log(isArmstrong(153));
 
 //18. JavaScript Program to Find Armstrong Number in an Interval.
 
+function isArmstrong(n) {
+  let sum = 0; str = n.toString(); leng = str.length;
+  for (let i = 0; i < str.length; i++) {
+    sum = sum + Math.pow(str[i], leng);
+  }
+  return sum === n
+}
+
+function rangeOfArmstrong(n1) {
+  let res = [];
+  for (let i = 1; i < n1; i++) {
+    if (isArmstrong(i)) {
+      res.push(i);
+    }
+  }
+  return res
+}
+
+console.log(rangeOfArmstrong(5000));
