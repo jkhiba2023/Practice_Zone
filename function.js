@@ -237,21 +237,30 @@
 
 //JavaScript Program to Make a Simple Calculator
 
-function simpleCalculator(operation, num1, num2) {
-  if (operation === 'Addition') {
-    return num1 + num2
-  } else if (operation === 'Substract') {
-    return num1 - num2
-  } else if (operation === 'Multiply') {
-    return num1 * num2
-  } else if (operation === 'Division') {
-    return num1 / num2
-  } else {
-    console.log("Something went wrong")
-  }
+// function simpleCalculator(operation, num1, num2) {
+//   if (operation === 'Addition') {
+//     return num1 + num2
+//   } else if (operation === 'Substract') {
+//     return num1 - num2
+//   } else if (operation === 'Multiply') {
+//     return num1 * num2
+//   } else if (operation === 'Division') {
+//     return num1 / num2
+//   } else {
+//     console.log("Something went wrong")
+//   }
+// }
+
+// console.log(simpleCalculator('Addition', 15, 12));
+// console.log(simpleCalculator('Substract', 15, 12));
+// console.log(simpleCalculator('Multiply', 15, 12));
+// console.log(simpleCalculator('Division', 15, 12));
+
+//JavaScript Program to Find the Sum of Natural Numbers.
+
+function sumNaturalNum(num) {
+  res = num * (num + 1) / 2;
+  return res
 }
 
-console.log(simpleCalculator('Addition', 15, 12));
-console.log(simpleCalculator('Substract', 15, 12));
-console.log(simpleCalculator('Multiply', 15, 12));
-console.log(simpleCalculator('Division', 15, 12));
+console.log(sumNaturalNum(15));
