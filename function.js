@@ -235,7 +235,7 @@
 
 // console.log(rangeOfArmstrong(5000));
 
-//JavaScript Program to Make a Simple Calculator
+//19. JavaScript Program to Make a Simple Calculator
 
 // function simpleCalculator(operation, num1, num2) {
 //   if (operation === 'Addition') {
@@ -256,11 +256,28 @@
 // console.log(simpleCalculator('Multiply', 15, 12));
 // console.log(simpleCalculator('Division', 15, 12));
 
-//JavaScript Program to Find the Sum of Natural Numbers.
+//20. JavaScript Program to Find the Sum of Natural Numbers.
 
-function sumNaturalNum(num) {
-  res = num * (num + 1) / 2;
-  return res
-}
+// function sumNaturalNum(num) {
+//   res = num * (num + 1) / 2;
+//   return res
+// }
 
-console.log(sumNaturalNum(15));
+// console.log(sumNaturalNum(15));
+
+//21. JavaScript Program to Check if the Numbers Have Same Last Digit.
+
+// function checkLastDigits(no1, no2) {
+//   res1 = no1 % 10;
+//   res2 = no2 % 10;
+//   if (res1 === res2) {
+//     console.log(`Last digits are same`);
+//   } else {
+//     console.log(`Last digits are not same`);
+//   }
+// }
+
+// checkLastDigits(45, 18);
+
+//22. JavaScript Program to Find HCF (Highest Common Factore)or GCD(Greatest Common Divisor).
+
