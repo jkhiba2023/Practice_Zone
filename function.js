@@ -279,5 +279,21 @@
 
 // checkLastDigits(45, 18);
 
-//22. JavaScript Program to Find HCF (Highest Common Factore)or GCD(Greatest Common Divisor).
+//22. JavaScript Program to Find HCF (Highest Common Factore) or GCD(Greatest Common Divisor) between two numbers.
+
+// function getHCF_GCD(num1, num2) {
+//   let hcf = 0
+//   for (let i = 1; i <= num1 && i <= num2; i++) {
+//     if (num1 % i === 0 && num2 % i === 0) {
+//       hcf = i;
+//     }
+//   }
+//   return hcf
+// }
+
+// let num1 = 9; num2 = 21;
+// console.log(`HCF of ${num1} & ${num2} is ${getHCF_GCD(num1, num2)}`);
+
+//23. JavaScript Program to Find LCM.
+
 
