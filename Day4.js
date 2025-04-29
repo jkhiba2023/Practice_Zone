@@ -26,7 +26,16 @@
 // const fahrenheit2 = convertCToF(celsius2)
 // console.log(fahrenheit2);
 
-//3. JavaScript .
+//3. JavaScript Program to Find the Square Root.
+
+// function sqrRoot(n1) {
+//   return n1 ** 2;
+// }
+
+// let n1 = 9;
+// let sqrt = sqrRoot(n1)
+// console.log(sqrt);
+
 
 
 
