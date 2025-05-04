@@ -39,19 +39,19 @@
 
 //4. JavaScript Program to Display the Multiplication Table.
 
-function tableOfNumbers(num) {
-  for (let i = 1; i <= 10; i++) {
-    console.log(`${num} * ${i} = ${num * i}`);
-  }
-}
+// function tableOfNumbers(num) {
+//   for (let i = 1; i <= 10; i++) {
+//     console.log(`${num} * ${i} = ${num * i}`);
+//   }
+// }
 
-let num1 = 2;
-let table1 = tableOfNumbers(num1);
-console.log(table1);
+// let num1 = 2;
+// let table1 = tableOfNumbers(num1);
+// console.log(table1);
 
-let num2 = 9;
-let table2 = tableOfNumbers(num2);
-console.log(table2);
+// let num2 = 9;
+// let table2 = tableOfNumbers(num2);
+// console.log(table2);
 
 
 
