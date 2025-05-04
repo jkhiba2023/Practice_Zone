@@ -20,3 +20,22 @@
 // }
 // console.log(human['location']);
 
+//Approach 3
+
+//Adding methods to the human object
+let human = {
+  name: "Rose Marlo",
+  age: 25,
+  location: 'Borivali',
+  fitness: function () {
+    console.log('Healthy and fit');
+  }
+}
+console.log(human.fitness());
+human.isGraducate = function () {
+  return true;
+}
+console.log(human);
+
+
+
