@@ -9,3 +9,18 @@
 
 //2nd Approach
 
+// function removeItemFromArray(arr, n) {
+//   const newArray = [];
+
+//   for (let i = 0; i < arr.length; i++) {
+//     if (arr[i] !== n) {
+//       newArray.push(arr[i]);
+//     }
+//   }
+//   return newArray;
+// }
+
+// const result = removeItemFromArray([10, 15, 19, 11, 29, 37, 11], 11);
+// console.log(result);
+
+
