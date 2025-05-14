@@ -15,5 +15,15 @@ let arr1 = [10, 99, 12, 10, 25, 13, 68, 99, 17, 20, 25, 23, 24];
 
 //Approach 2 --- using filter()
 
-removeDuplicate = arr1.filter((item, indx) => arr1.indexOf(item) === indx);
-console.log(removeDuplicate.sort());
+// removeDuplicate = arr1.filter((item, indx) => arr1.indexOf(item) === indx);
+// console.log(removeDuplicate.sort());
+
+//Approach 3 --- using forEach method
+let emptyarr = [];
+arr1.forEach((ele) => {
+  if (!emptyarr.includes(ele)) {
+    emptyarr.push(ele);
+  }
+})
+
+console.log(emptyarr.sort());
