@@ -25,3 +25,13 @@
 
 // const largestNumber = findLargest(29, 49, 19);
 // console.log(largestNumber);
+
+//3rd Approach
+//Using spread operator using Math.max()
+
+function findLargest(num1, num2, num3) {
+  return Math.max(...[num1, num2, num3]);
+}
+
+const largestNumber = findLargest(15, 19, 11);
+console.log(largestNumber);
